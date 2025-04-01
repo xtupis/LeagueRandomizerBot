@@ -30,8 +30,8 @@ public class LoLBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        String TOKEN = TokenPovider.getToken();
-        return TOKEN;
+        String token = TokenPovider.getToken();
+        return token;
     }
 
     @Override
