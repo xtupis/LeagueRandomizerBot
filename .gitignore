@@ -12,6 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
+src/main/java/org/xtupis/randomizer/token/TokenPovider.java
 
 ### Eclipse ###
 .apt_generated

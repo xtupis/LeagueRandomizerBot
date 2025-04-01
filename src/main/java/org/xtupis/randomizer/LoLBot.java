@@ -1,5 +1,7 @@
 package org.xtupis.randomizer;
 
+import org.xtupis.randomizer.token.TokenPovider;
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -28,7 +30,8 @@ public class LoLBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "7973540744:AAH7MLEaHeTT526h0KfCI7vtJ__KlJDiFvw";
+        String TOKEN = TokenPovider.getToken();
+        return TOKEN;
     }
 
     @Override
